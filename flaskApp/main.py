@@ -49,7 +49,7 @@ def load_data():
             ['/static/images/generic-laptop.jpg',
              str(df.iloc[l]["Product"]),
              int(df.iloc[l]["Price"]),
-             str(processor_brand) + " " + str(df.iloc[l]["Processor Name"] + " " + str(processor_generation)),
+             str(processor_brand) + " " + str(processor_generation),
              str(df.iloc[l]["RAM"]) + " " + str(df.iloc[l]["RAM Type"]) + ' RAM',
              ssd_capacity,
              str(graphic_processor),
